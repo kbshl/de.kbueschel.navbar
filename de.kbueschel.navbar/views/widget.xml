@@ -1,0 +1,9 @@
+<Alloy>
+
+	<View class="navBar">
+		
+		<View class="navBar__separator" />
+		
+	</View>
+
+</Alloy>

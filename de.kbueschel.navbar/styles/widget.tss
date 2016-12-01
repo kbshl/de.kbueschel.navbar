@@ -1,0 +1,29 @@
+'.navBar': {
+
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: 0,
+
+	backgroundColor: 'white',
+
+	opacity: 1.0,
+	zIndex: 16,
+
+	overrideCurrentAnimation: true
+},
+
+
+'.navBar[if=$.args.scrolling]': {
+
+	opacity: 0.0
+},
+
+
+'.navBar__separator': {
+
+	width: Ti.UI.FILL,
+	height: 1,
+	bottom: 0,
+
+	backgroundColor: '#e6e6e6'
+},
